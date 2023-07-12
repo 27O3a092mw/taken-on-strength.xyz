@@ -25,6 +25,8 @@ nav {
 }
 content {
     padding: 20px;
+    float: left;
+    height:50%;
     overflow: hidden;
 }
 footer {
