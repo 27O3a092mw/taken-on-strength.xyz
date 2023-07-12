@@ -31,6 +31,8 @@ content {
 }
 footer {
     padding:10px;
-    float: left;
+    position: absolute;
+    left:0;
     bottom:0;
+    width: 100%;
 }
