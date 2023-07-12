@@ -29,6 +29,13 @@ header {
     display: flex;
 
 }
+nav {
+    width:20%;
+    height:100%;
+    flex: auto;
+    left:0;
+
+}
 content {
     width: 100%;
     flex: auto;
