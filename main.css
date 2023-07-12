@@ -38,6 +38,7 @@ nav {
 }
 content {
     width: 80%;
+    left:20%;
     flex: auto;
     border: none;
 
