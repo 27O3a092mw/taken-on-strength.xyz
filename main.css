@@ -1,3 +1,9 @@
+a {
+    color: rgba(255,255,255,0.925);
+}
+a:hover {
+    color: khaki;
+}
 * {
     box-sizing: border-box;
 }
