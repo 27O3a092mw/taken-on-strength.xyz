@@ -59,6 +59,7 @@ body {
 }
 .box .left_space {
    width:10%;
+   height:82.5%;
    float:left;
 }
 .box .content {
