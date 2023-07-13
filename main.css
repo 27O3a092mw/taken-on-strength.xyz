@@ -57,12 +57,18 @@ body {
 .subtitle {
     font-size:1.3em;
 }
-.box .left_space {
+.box .content_wrapper {
+   display:inline-block;
+   flex: 1 1 auto;
+   
+}
+
+.box .content_wrapper .left_space {
    width:10%;
    height:82.5%;
    float:left;
 }
-.box .content {
+.box .content_wrapper .content {
     flex: 1 1 auto;
     background-color: rgba(32,33,36,1);
     height:82.5%;
