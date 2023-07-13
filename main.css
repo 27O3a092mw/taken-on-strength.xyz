@@ -14,6 +14,7 @@ body {
     width:100%;
     height:100%;
     flex-flow:column;
+    background-color:#20124;
 }
 .box .header {
     flex: 0 1 auto;
@@ -60,13 +61,13 @@ body {
     flex: 1 1 auto;
     background-color: pink;
     height:82.5%;
-    width:98%;
+    width:100%;
     border:0px;
 }
 #content_frame {
    display:block;
    height:100%;
-   width:100%;
+   width:99%;
    background-color:#202124;
    border:0px;
 }
