@@ -66,8 +66,9 @@ body {
 }
 #content_frame {
    display:block;
+   left:20px;
    height:100%;
-   width:99%;
+   width:79%;
    background-color: rgba(32,33,36,1);
    border:0px;
 }
