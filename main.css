@@ -24,18 +24,12 @@ body {
     color: rgba(255,255,255,0.900);
     display: block;
 }
-.box .header .header2{
-   display: table-cell:
-   vertical-align: middle;
-}
-
 .box .top_nav {
     flex: 0 1 auto;
     overflow: hidden;
     background-color: rgba(32,33,36,1);
     font-size: 1.15em;
     border-top: 1px solid rgb(51, 54, 54);
-    border-bottom: 1px solid rgb(51,54,54);
     height:7.5%;
 }
 .box .top_nav a {
@@ -52,8 +46,8 @@ body {
     background-color:black;
 }
 .title {
-
     font-size:1.5em;
+    top:5%;
 }
 .subtitle {
     font-size:1.3em;
