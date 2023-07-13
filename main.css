@@ -51,6 +51,7 @@ body {
 }
 .subtitle {
     font-size:1.3em;
+    top:5%;
 }
 .box .content_wrapper {
    display:inline-block;
