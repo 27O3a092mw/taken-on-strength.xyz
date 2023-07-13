@@ -21,6 +21,11 @@ body {
     color: rgba(255,255,255,0.900);
     display: block;
 }
+.box .header .header2{
+   display: table-cell:
+   vertical-align: middle;
+}
+
 .box .top_nav {
     flex: 0 1 auto;
     overflow: hidden;
