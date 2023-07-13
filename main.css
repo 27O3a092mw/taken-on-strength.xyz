@@ -6,7 +6,7 @@ body {
     height:100vh;
     margin: 0;
     font-family:'Didact Gothic';
-    background-color:#20124;
+    background-color: rgba(32,33,36,1);
     color: rgba(255,255,255,0.900);
 }
 .box {
@@ -14,11 +14,11 @@ body {
     width:100%;
     height:100%;
     flex-flow:column;
-    background-color:#20124;
+    background-color: rgba(32,33,36,1);
 }
 .box .header {
     flex: 0 1 auto;
-    background-color: #202124;
+    background-color: rgba(32,33,36,1);
     height:10%;
     text-align: left;
     color: rgba(255,255,255,0.900);
@@ -32,7 +32,7 @@ body {
 .box .top_nav {
     flex: 0 1 auto;
     overflow: hidden;
-    background-color: #202124;
+    background-color: rgba(32,33,36,1);
     font-size: 1.15em;
     border-top: 1px solid rgb(51, 54, 54);
     height:7.5%;
@@ -40,7 +40,7 @@ body {
 .box .top_nav a {
     flex: 0 1 auto;
     color: rgba(255,255,255,0.900);
-    background-color: #202124;
+    background-color: rgba(32,33,36,1);
     padding: 14px 16px;
     text-decoration: none;
     float: right;
@@ -59,7 +59,7 @@ body {
 }
 .box .content {
     flex: 1 1 auto;
-    background-color: pink;
+    background-color: rgba(32,33,36,1);
     height:82.5%;
     width:100%;
     border:0px;
@@ -68,6 +68,6 @@ body {
    display:block;
    height:100%;
    width:99%;
-   background-color:#202124;
+   background-color: rgba(32,33,36,1);
    border:0px;
 }
