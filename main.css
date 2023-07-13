@@ -57,11 +57,15 @@ body {
 .subtitle {
     font-size:1.3em;
 }
+.box .left_space {
+   width:10%;
+   float:left;
+}
 .box .content {
     flex: 1 1 auto;
     background-color: rgba(32,33,36,1);
     height:82.5%;
-    width:100%;
+    width:90%;
     border:0px;
 }
 #content_frame {
