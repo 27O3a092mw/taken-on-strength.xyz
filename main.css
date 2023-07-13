@@ -6,6 +6,8 @@ body {
     height:100vh;
     margin: 0;
     font-family:'Didact Gothic';
+    background-color:#20124;
+    color: rgba(255,255,255,0.900);
 }
 .box {
     display: flex;
@@ -41,6 +43,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     float: right;
+    border-top: 1px solid rgb(51, 54, 54);
 }
 .box .top_nav a:hover {
     color: khaki;
@@ -58,10 +61,12 @@ body {
     background-color: pink;
     height:82.5%;
     width:98%;
+    border:0px;
 }
 #content_frame {
    display:block;
    height:100%;
    width:100%;
    background-color:#202124;
+   border:0px;
 }
