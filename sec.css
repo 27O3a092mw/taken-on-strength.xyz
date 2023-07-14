@@ -1,0 +1,53 @@
+body {
+    background-color: rgba(32,33,36,1);
+    color: rgba(255,255,255,0.900);
+    font-family:'Didact Gothic'
+}
+.header {
+    font-size:1.7em;
+    text-decoration:underline;
+    text-align:center;
+    padding-bottom:20px;
+}
+.content {
+    width:100%;
+    height:100%;
+    text-align:left;
+
+}
+a {
+    color: rgba(255,255,255,0.900);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255,255,255,0.25);
+}
+a:hover {
+    color: rgb(247, 233, 110);
+}
+a:visited {
+    color: rgba(255,255,255,0.850);
+}
+#source_table{
+    width:100%;
+    border-collapse:collapse;
+    
+}
+#source_table th, td{
+    border:1px solid black;
+    padding: 7px;
+}
+
+#source_title{
+    width:25%;
+}
+#source_owner{
+    width:25%;
+
+}
+#source_notes{
+    width:50%;
+}
+#col_headings{
+    background-color:black;
+    font-size:1.25em;
+    color:khaki;
+}
