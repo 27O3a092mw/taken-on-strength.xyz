@@ -32,7 +32,7 @@ body {
     border-top: 1px solid rgb(51, 54, 54);
     height:7.5%;
 }
-.box .topnav a {
+.box .top_nav a {
     flex: 0 1 auto;
     color: rgba(255,255,255,0.900);
     background-color: rgba(32,33,36,1);
