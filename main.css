@@ -66,13 +66,13 @@ a:visited {
     top:5%;
 }
 .box .content_wrapper {
-   display:inline-block;
+   display:flex;
    flex: 1 1 auto;
    
 }
 
 .box .content_wrapper .left_space {
-   width:10%;
+   width:3%;
    height:100%;
    float:left;
 }
@@ -84,10 +84,9 @@ a:visited {
     border:0px;
 }
 #content_frame {
-   display:block;
-   left:20px;
+   width:100%;
    height:100%;
-   width:88%;
+   flex:1 1 auto;
    background-color: rgba(32,33,36,1);
    border:0px;
 }

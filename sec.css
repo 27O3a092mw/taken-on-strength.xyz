@@ -15,10 +15,34 @@ body {
     text-align:left;
 
 }
+.sup{
+    font-size:0.7em;
+    vertical-align: super;
+    padding-left:5px;
+}
+#profileSource{
+    width:100%;
+    padding-top:50px;
+}
+.profileTable{
+    width:90%;
+}
+.profileTable td{
+    padding:5px 10px 5px 5px;
+}
+.fieldName {
+    width:15%;
+    font-weight:bold;
+    text-align:right;
+    vertical-align: top;
+}
 a {
     color: rgba(255,255,255,0.900);
     text-decoration: none;
     border-bottom: 1px solid rgb(255,255,255,0.25);
+}
+#footnotes{
+    padding-top:50px;
 }
 a:hover {
     color: rgb(247, 233, 110);
