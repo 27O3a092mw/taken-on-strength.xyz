@@ -5,10 +5,10 @@
         <meta name="keywords" content="War, The Great War, First World War, WWI, CEF, Canada, History">
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="../sec.css">
+        <link rel="stylesheet" href="../main.css">
         <link rel="stylesheet" href="mobile.css">
         <base target="_blank">
-
+        <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
         <!--google fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,10 +16,11 @@
         <!--/google fonts-->
     </head>
     <body>
-        <div class="header">
+        <div class="subHeader">
           Private Arthur Alway, 127580
         </div>
-        <div class="content">
+        <div class="subContent">
+          <a href="../profiles.html" class="back">← Back to Profiles List</a>
           <table class="profileTable">
             <tr>
               <td class="fieldName">Date of Birth:</td>
@@ -131,3 +132,14 @@
           </td>
         </tr>
       </table>
+      </div>
+      <script>
+        $(document).ready(function() {
+            $('#back').click(function(e) {
+                e.preventDefault();
+                $('#content').load(e.target.href);
+            })
+        })
+    </script>
+  </body>
+  </html>
