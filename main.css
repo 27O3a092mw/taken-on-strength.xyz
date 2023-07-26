@@ -107,13 +107,22 @@ ref {
 }
    
 .li2{
-   margin:10px;
+   margin:15px;
 }
 .li3{
-   margin:20px;
-}
-.li4{
    margin:30px;
 }
+.li4{
+   margin:45px;
+}
 
-
+#refTable {
+   width:80%;
+   border:1px solid rgba(251,169,115,0.50);
+   border-collapse:collapse;
+   vertical-align: top;
+   text-align:left;
+}
+#refTable th, #refTable td, #refTable  tr{
+   border:1px solid rgba(251,169,115,0.50);
+}
