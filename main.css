@@ -73,7 +73,10 @@ body {
     width:30%;
 }
 #profileTable {
-    width:80%;
+   width:80%;
+   border:none;
+   vertical-align: top;
+   text-align:left;
 }
 #space{
    width:100%;
