@@ -111,15 +111,10 @@ ref {
    vertical-align:super;
 }
    
-.li2{
-   padding-left:15px;
+ul {
+   padding-left:25px;
 }
-.li3{
-   padding-left:30px;
-}
-.li4{
-   padding-left:45px;
-}
+
 #refTable {
    width:80%;
    border:1px solid rgba(251,169,115,0.50);
