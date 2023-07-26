@@ -86,5 +86,13 @@
             })
         })
         </script>
+        <script>
+            $(document).ready(function() {
+                $('#profileTable').click(function(e) {
+                    e.preventDefault();
+                    $('#content').load(e.target.href);
+                })
+            })
+            </script>
   </body>
   </html>
