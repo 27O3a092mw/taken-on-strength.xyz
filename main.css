@@ -3,7 +3,7 @@
 */
 a {
     text-decoration: none;
-    color:rgba(158, 73, 63, 1);
+    color:#101b48;
 }
 a:hover{
     color:rgba(255, 230, 0, 1);
@@ -14,16 +14,15 @@ a:visited:hover {
     
 }
 a:visited {
-    color: rgba(158, 73, 63, 1);
+    color:#101b48;
 }
-body {
-    
+body {    
     height:100%;
     width:100%;
     margin:0;
     font-family:'Didact Gothic';
-    background-color: rgba(32,33,36,1);
-    color: rgba(255,255,255,0.900);
+    background-color:#c3b091;
+    color:black;
 }
 .header {
     font-size:1.7em;
@@ -35,13 +34,11 @@ body {
 
 }
 #topNav {
-
     width:100%;
     font-size:1.25em;
     float:right;
     height:40px;
     border-bottom:1px solid rgba(128,128,128,0.500);
-
 }
 .internal {
     height:100%;
