@@ -91,7 +91,12 @@ body {
 #profileTable th, #profileTable td, #profileTable tr{
    border:1px solid rgba(251,169,115,0.50);
 }
-
+#profileTable #year{
+   width:10%;
+}
+#profileTable #date{
+   width:25%;
+}
 .td {
    text-align:right;
 
