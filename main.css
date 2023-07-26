@@ -3,7 +3,7 @@
 */
 a {
     text-decoration: none;
-    color:#101b48;
+    color:#fba973;
 }
 a:hover{
     color:rgba(255, 230, 0, 1);
@@ -14,15 +14,15 @@ a:visited:hover {
     
 }
 a:visited {
-    color:#101b48;
+    color:#fba973;
 }
 body {    
     height:100%;
     width:100%;
     margin:0;
     font-family:'Didact Gothic';
-    background-color:#c3b091;
-    color:black;
+    background-color:#513725;
+    color:white;
 }
 .header {
     font-size:1.7em;
