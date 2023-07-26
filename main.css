@@ -124,6 +124,7 @@ ref {
 }
 #refTable th, #refTable td, #refTable  tr{
    border:1px solid rgba(251,169,115,0.50);
+   padding:10px;
 }
 
 #space {
