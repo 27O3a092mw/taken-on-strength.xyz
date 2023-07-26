@@ -92,10 +92,10 @@ body {
    border:1px solid rgba(251,169,115,0.50);
 }
 #profileTable #year{
-   width:10%;
+   width:5%;
 }
 #profileTable #date{
-   width:25%;
+   width:10%;
 }
 .td {
    text-align:right;
@@ -132,7 +132,7 @@ ref {
    padding:10px;
 }
 #refTable #no {
-   width:10%;
+   width:5%;
 }
 #refTable #sn {
    width:25%;
