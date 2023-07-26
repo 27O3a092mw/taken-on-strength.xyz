@@ -74,13 +74,22 @@ body {
 }
 #profileTable {
    width:80%;
-   border:none;
+   border:1px solid #fba973
+   border-collapse:collapse;
    vertical-align: top;
    text-align:left;
 }
 #profileTable th {
    text-align:center;
    font-weight:bold;
+}
+#profileTable th, #profileTable td {
+   border:1px solid #fba973;
+}
+
+.td {
+   text-align:right;
+
 }
 #space{
    width:100%;
