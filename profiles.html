@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="mobile.css">
         <base target="_blank">
-
+        <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
         <!--google fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,15 +23,27 @@
             <div class="#internalLinks"></div>
                 <table id="profileTable">
                     <tr>
-                        <td><a href="profiles/alway-127580.html" target="#content">Private Arthur Alway - 127580</td>
+                        <td><a href="profiles/alway-127580.html">Private Arthur Alway - 127580</td>
                     </tr>
                     <tr>
-                        <td><a href="profiles/burgess-fo-major.html" target="_self">Major Frederick Oley Burgess</td>
+                        <td><a href="profiles/burgess-fo-major.html">Major Frederick Oley Burgess</td>
                     </tr>
                 </table>
             </div>
+
+            <div id="profileContent"></div>
         </div>
+        <script>
+            $(document).ready(function() {
+                $('#profileTable').click(function(e) {
+                    e.preventDefault();
+                    $('#profileContent').load(e.target.href);
+                })
+            })
+        </script>
     </body>
+
+    
 </html>
 
         
