@@ -89,7 +89,7 @@ body {
    font-weight:bold;
 }
 #profileTable th, #profileTable td, #profileTable tr{
-   border:1px solid rgba(251,169,115,0.50);
+   border:1px solid rgba(251,169,115,0.25);
 }
 #profileTable #year{
    width:5%;
@@ -123,7 +123,7 @@ ul {
    text-align:left;
 }
 #refTable th, #refTable td, #refTable  tr{
-   border:1px solid rgba(251,169,115,0.50);
+   border:1px solid rgba(251,169,115,0.25);
    padding:10px;
 }
 #refTable #no {
