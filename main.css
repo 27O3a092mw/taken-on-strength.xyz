@@ -3,8 +3,10 @@
 */
 
 body {
+    
     height:100%;
-    margin: 0;
+    width:100%;
+    margin:0;
     font-family:'Didact Gothic';
     background-color: rgba(32,33,36,1);
     color: rgba(255,255,255,0.900);
@@ -40,6 +42,28 @@ a:visited:hover {
 a:visited {
     color: rgba(255,255,255,0.900);
 }
-#bodyContent{
-    padding-left:40px;
+#content{
+    padding-left:60px;
+}
+#source_table{
+    border:1px solid rgba(128,128,128,0.500);
+    width:80%;
+    border-collapse:collapse;
+
+}
+#source_table td, #source_table th {
+    border:1px solid rgba(128,128,128,0.500);
+    padding:5px;
+
+}
+#source_title {
+    width:40%;
+
+}
+#source_owner {
+    width:30%;
+
+}
+#source_notes {
+    width:30%;
 }
