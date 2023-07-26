@@ -72,6 +72,11 @@ body {
 #source_notes {
     width:30%;
 }
+#profileList{
+   width:80%;
+   border:none;
+}
+
 #profileTable {
    width:80%;
    border:1px solid rgba(251,169,115,0.50);
@@ -101,10 +106,14 @@ ref {
    vertical-align:super;
 }
    
-ul li {
-   margin-left:10px;
+.li1{
+   margin:5px;
 }
-ul li li {
-   margin-left:15px;
+.li2{
+   margin:10px;
 }
+.li3{
+   margin:15px;
+}
+
 
