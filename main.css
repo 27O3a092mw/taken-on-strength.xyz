@@ -87,7 +87,11 @@ body {
    padding:15px;
 }
 
-
+ref {
+   text-size:0.75em;
+   vertical-align:super;
+}
+   
 ul li {
    margin-left:10px;
 }
