@@ -17,29 +17,33 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
         <!--/google fonts-->
+
+        <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+        
     </head>
     <body>
-        <div class="box">
-            <div class="header">
-                <table id="header_table">
-                    <tr id="header_row">
-                        <td><span class="title">Taken on Strength: </span><span class="subtitle">Researching the people of the Canadian Expeditionary Force</span></td>
-                    </tr>
-                </table>
-            </div>
-            <div class="top_nav">
-                <a href="ccdetails.html" target="content_frame">Copyright</a>
-                <a href="sources.html" target="content_frame">Sources</a>
-                <a href="profiles.html" target="content_frame">Profiles</a>
-            </div>
-            <div class="content_wrapper">
-                <div class="left_space">
-                    &nbsp;
-                </div>
-                <div class="content">
-                    <iframe name="content_frame" id="content_frame" src="profiles.html"/>
-                </div>
-            </div>
+        <div class="header">
+            <p>Taken on Strengh: Researching the People of the Canadian Expeditionary Force</p>
         </div>
+        <div id="topNav">    
+            <a href="profiles.html">Profiles</a>
+            <a href="sources.html">Sources</a>
+        </div>
+
+        <!--CONTENT LEVEL-->
+        <div id="content"></div>
+
+
+        <!--script-->
+        <script>
+            $(document).ready(function() {
+                $('#content').load('profiles.html');
+                
+                $('#topNav').click(function(e) {
+                    e.preventDefault();
+                    $('#content').load(e.target.href);
+                })
+            })
+        </script>
     </body>
 </html>
