@@ -117,12 +117,14 @@ body {
    border:1px solid rgba(251,169,115,0.50);
    border-collapse:collapse;
    vertical-align: top;
-   text-align:left;
    padding-bottom:50px;
 }
 #refTable th, #refTable td, #refTable  tr{
    border:1px solid rgba(251,169,115,0.25);
    padding:10px;
+}
+#refTable td{
+   text-align:left;
 }
 #refTable th{
    text-align:center;
