@@ -134,6 +134,9 @@ body {
 #refTable #sl {
    width:32.5%;
 }
+#refTable #ac {
+   width:5%
+}
 #space {
    width:100%;
    margin:50px;
