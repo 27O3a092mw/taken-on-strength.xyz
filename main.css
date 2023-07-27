@@ -111,7 +111,7 @@ body {
    font-size:0.75em;
    vertical-align:super;
 }
-   
+
 #refTable {
    width:80%;
    border:1px solid rgba(251,169,115,0.50);
@@ -123,6 +123,9 @@ body {
 #refTable th, #refTable td, #refTable  tr{
    border:1px solid rgba(251,169,115,0.25);
    padding:10px;
+}
+#refTable th{
+   text-align:center;
 }
 #refTable #no {
    width:5%;
