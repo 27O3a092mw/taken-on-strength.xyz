@@ -9,6 +9,9 @@ a:hover{
     color:rgba(255, 230, 0, 1);
     
 }
+.sqLink{
+   font-size:0.85em;
+}
 a:visited:hover {
     color:rgba(255, 230, 0, 1);
     
