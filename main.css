@@ -24,19 +24,13 @@ body {
     width:100%;
     margin:0;
     font-family:'Didact Gothic';
+    background-color:#513725;
     color:white;
 }
-#overallHeader{
-   background-color:#513725;
-   opacity:1;
-   position:sticky;
-   top:0;
-   left:0;
-}
 .header {
-   
+   Position:fixed;
    background-color:#513725;
-   fill-opacity: 1;
+   top:0;
    left:0;
    font-size:1.7em;
    padding-left:20px;
@@ -47,7 +41,9 @@ body {
 
 }
 #topNav {
+   position:Fixed;
    background-color:#513725;
+   top:75px;
    width:100%;
    font-size:1.25em;
    float:right;
@@ -63,11 +59,10 @@ body {
 #content{
    top:110px;
    width:100%;
-   position:sticky;
+   top:110px;
    left:0;
    padding-left:60px;
    padding-top:25px;
-   background-color:#513725;
 }
 #source_table{
     border:1px solid rgba(128,128,128,0.500);
