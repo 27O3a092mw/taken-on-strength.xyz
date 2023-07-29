@@ -57,9 +57,11 @@ body {
 }
 
 #content{
-    padding-left:60px;
-    padding-top:25px;
-    top:150px;
+   top:150px;
+   Position:fixed;
+   left:0;
+   padding-left:60px;
+   padding-top:25px;
 }
 #source_table{
     border:1px solid rgba(128,128,128,0.500);
