@@ -28,7 +28,7 @@ body {
     color:white;
 }
 .header {
-   Position:sticky;
+   position:-webkit-sticky;
    background-color:#513725;
    fill-opacity: 1;
    top:0;
@@ -42,7 +42,7 @@ body {
 
 }
 #topNav {
-   position:sticky;
+   position:-webkit-sticky;
    background-color:#513725;
    fill-opacity: 1;
    top:75px;
@@ -61,7 +61,7 @@ body {
 #content{
    top:110px;
    width:100%;
-   Position:sticky;
+   position:-webkit-sticky;
    left:0;
    padding-left:60px;
    padding-top:25px;
