@@ -57,6 +57,8 @@ body {
 }
 
 #content{
+   position:absolute;
+   
    top:110px;
    width:100%;
    top:110px;
