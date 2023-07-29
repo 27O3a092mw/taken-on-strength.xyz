@@ -55,7 +55,7 @@ body {
 }
 #source_table{
     border:1px solid rgba(128,128,128,0.500);
-    width:80%;
+    width:90%;
     border-collapse:collapse;
 
 }
@@ -76,12 +76,12 @@ body {
     width:30%;
 }
 #profileList{
-   width:80%;
+   width:90%;
    border:none;
 }
 
 #profileTable {
-   width:80%;
+   width:90%;
    border:1px solid rgba(251,169,115,0.50);
    border-collapse:collapse;
    vertical-align: top;
@@ -101,6 +101,9 @@ body {
 #profileTable #date{
    width:10%;
 }
+#profileTable #detail{
+   width:75%;
+}
 .td {
    text-align:right;
 
@@ -116,7 +119,7 @@ body {
 }
 .struckout{
    text-decoration:line-through;
-   
+
 }
 #refTable {
    width:80%;
