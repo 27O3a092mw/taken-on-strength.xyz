@@ -161,6 +161,8 @@ ul {
    list-style-type:square
 }
 .caption{
+   width:100%;
    font-size:0.75em;
    color:lightgrey;
+   text-align:center;
 }
