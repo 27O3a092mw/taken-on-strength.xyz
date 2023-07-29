@@ -24,7 +24,6 @@ body {
     width:100%;
     margin:0;
     font-family:'Didact Gothic';
-    background-color:#513725;
     color:white;
 }
 #overallHeader{
@@ -68,6 +67,7 @@ body {
    left:0;
    padding-left:60px;
    padding-top:25px;
+   background-color:#513725;
 }
 #source_table{
     border:1px solid rgba(128,128,128,0.500);
