@@ -28,8 +28,9 @@ body {
     color:white;
 }
 .header {
-   Position:fixed;
+   Position:sticky;
    background-color:#513725;
+   fill-opacity: 1;
    top:0;
    left:0;
    font-size:1.7em;
@@ -41,8 +42,9 @@ body {
 
 }
 #topNav {
-   position:fixed;
+   position:sticky;
    background-color:#513725;
+   fill-opacity: 1;
    top:75px;
    width:100%;
    font-size:1.25em;
