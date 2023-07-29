@@ -28,7 +28,7 @@ body {
     color:white;
 }
 .header {
-   Position:sticky;
+   Position:fixed;
    background-color:#513725;
    top:0;
    left:0;
@@ -41,7 +41,7 @@ body {
 
 }
 #topNav {
-   position:sticky;
+   position:fixed;
    background-color:#513725;
    top:75px;
    width:100%;
