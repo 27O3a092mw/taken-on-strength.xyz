@@ -28,8 +28,11 @@ body {
     color:white;
 }
 .header {
-    font-size:1.7em;
-    padding-left:20px;
+   Position:fixed;
+   top:0;
+   left:0;
+   font-size:1.7em;
+   padding-left:20px;
 }
 .subHeader{
     text-align:center;
@@ -37,11 +40,13 @@ body {
 
 }
 #topNav {
-    width:100%;
-    font-size:1.25em;
-    float:right;
-    height:40px;
-    border-bottom:1px solid rgba(128,128,128,0.500);
+   position:fixed;
+   top:75px;
+   width:100%;
+   font-size:1.25em;
+   float:right;
+   height:40px;
+   border-bottom:1px solid rgba(128,128,128,0.500);
 }
 .internal {
     height:100%;
