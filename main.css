@@ -160,3 +160,7 @@ body {
 ul {
    list-style-type:square
 }
+.caption{
+   font-size:0.75em;
+   color:lightgrey;
+}
