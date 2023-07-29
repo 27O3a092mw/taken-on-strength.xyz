@@ -58,6 +58,7 @@ body {
 
 #content{
    top:110px;
+   width:100%;
    Position:fixed;
    left:0;
    padding-left:60px;
