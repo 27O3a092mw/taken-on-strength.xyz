@@ -85,12 +85,12 @@ a:visited {
 .tableImg {
     width:50vw;
     height:auto;
-
+    align-items: center;
 }
 .caption {
     width:100%;
     font-size:0.65em;
     color: lightgrey;
     text-align:center;
-    
+
 }
