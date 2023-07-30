@@ -1,5 +1,5 @@
 body {
-    background-color:#513275;
+    background-color:#513725;
     color: white;
     font-family: 'Didact Gothic';
     height:100vh;
@@ -10,9 +10,26 @@ body {
 .header {
     width:100vw;
     height:10vh;
-    text-align:left;
-    padding-left:5vw;
-    font-size:1.75em;
-    font-weight:bold;
     
+}
+#siteTitle {
+    font-size:1.75em;
+    padding-left:5vw;
+    font-weight:bold;
+
+}
+.subHeader {
+    font-size:1.45em;
+    font-weight:bold;
+    text-align:center;
+
+}
+.topnav {
+    height:5vh;
+    width:100vw;
+    text-align:right;
+    font-size:1.25em;
+    padding-right:2vw;
+    border-bottom:1px solid rgba(128,128,128,0.500);
+
 }
