@@ -94,12 +94,12 @@ a:visited {
     justify-content: center;
     align-content:center;
 }
-.caption {
+figure {
     width:100%;
     font-size:0.65em;
     color: lightgrey;
     text-align:center;
-
+    align-content: center;
 }
 #refTable {
     width:90vw;
