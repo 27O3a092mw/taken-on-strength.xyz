@@ -155,9 +155,10 @@ ul {
     padding:5px;
 
 }
-#refTable td, #refTable tr {
+#sourceTable td, #sourceTable tr {
     border:1px solid #fba973;
     padding:5px;
+    
 }
 #sourceTitle {
     width:40%;
