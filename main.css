@@ -88,10 +88,11 @@ a:visited {
     
 }
 .tableImg {
-    display:block;
     width:50vw;
     height:auto;
     align-items: center;
+    justify-content: center;
+    align-content:center;
 }
 .caption {
     width:100%;
@@ -174,5 +175,10 @@ ul {
 }
 #sourceNotes {
     width:30%;
+
+}
+.tableHeading {
+    font-weight:bold;
+    text-align:center;
 
 }
