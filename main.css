@@ -10,7 +10,7 @@ body {
     grid-template-areas:
     'header header header'
     'topnav topnav topnav'
-    'content content content'
+    'sidespace content content content'
 }
 .header {
     grid-area: header;
