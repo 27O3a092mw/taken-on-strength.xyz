@@ -1,4 +1,4 @@
-body{
+body {
     display:grid;
     column-gap: 20px;
     background-color:#513725;
@@ -12,28 +12,67 @@ body{
     'topnav topnav topnav'
     'content content content'
 }
-.header{
+.header {
     grid-area: header;
     height:75px;
     background-color: #513725;
     text-align:left;
     font-size:1.75em;
     padding-left:20px;
-
+    width:100%;
 }
-.topnav{
+.topnav {
     grid-area:topnav;
     height:40px;
     background-color: #513725;
     text-align:right;
     font-size:1.25em;
     padding-right:20px;
-
+    width:100%;
 }
-.content{
+.content {
     grid-area:content;
     height:auto;
     text-align:left;
     font-size:1em;
+    width:100%;
+}
+a {
+    color: #fba973;
+    text-decoration: none;
+
+}
+a:hover {
+    color: rgba(255,230,0,1);
+
+}
+a:visited {
+    color:#fba973;
+
+}
+#sourceTable {
+    border:1px solid rgba(128,128,128,0.500);
+    width:90%;
+    border-collapse:collapse;
+
+}
+#sourceTable td, #sourceTable th {
+    border:1px solid rgba(128,128,128,0.500);
+    padding:5px;
+}
+#colHeadings {
+    font-weight:bold;
+
+}
+#sourceTitle {
+    width:40%;
+
+}
+#sourceOwner {
+    width:30%;
+
+}
+#sourceNotes {
+    width:30%;
 
 }
