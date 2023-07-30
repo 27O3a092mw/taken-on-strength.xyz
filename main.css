@@ -1,132 +1,18 @@
 body {
-    display:grid;
-    column-gap: 20px;
-    background-color:#513725;
-    font-family:'Didact Gothic';
-    color:white;
-    height:100%;
-    width:100%;
+    background-color:#513275;
+    color: white;
+    font-family: 'Didact Gothic';
+    height:100vh;
+    width:100vw;
     margin:0;
-    grid-template-areas:
-    'header header header header header header header header header header header header'
-    'topnav topnav topnav topnav topnav topnav topnav topnav topnav topnav topnav topnav'
-    'sidespace content content content content content content content content content content content'
+
 }
 .header {
-    grid-area: header;
-    height:75px;
-    background-color: #513725;
+    width:100vw;
+    height:10vh;
     text-align:left;
+    padding-left:5vw;
     font-size:1.75em;
-    padding-left:20px;
-    width:90%;
-
-}
-.subHeader {
-    font-size:1.45em;
     font-weight:bold;
-    text-align:center;
-}
-.topnav {
-    grid-area:topnav;
-    height:40px;
-    background-color: #513725;
-    text-align:right;
-    font-size:1.25em;
-    padding-right:2%;
-    width:98%;
-    border-bottom:1px solid rgba(128,128,128,0.500);
-    
-}
-.sidespace{
-    grid-area:sidespace;
-    width:3%;
-    
-}
-.content {
-    grid-area:content;
-    height:auto;
-    text-align:left;
-    font-size:1em;
-    width:97%;
-
-}
-a {
-    color: #fba973;
-    text-decoration: none;
-
-}
-a:hover {
-    color: rgba(255,230,0,1);
-
-}
-a:visited {
-    color:#fba973;
-
-}
-#sourceTable {
-    border:1px solid rgba(251,169,115,0.500);
-    width:90%;
-    border-collapse:collapse;
-
-}
-#sourceTable td, #sourceTable th {
-    border:1px solid rgba(251,169,115,0.500);
-    padding:5px;
-
-}
-#colHeadings {
-    font-weight:bold;
-
-}
-#sourceTitle {
-    width:40%;
-
-}
-#sourceOwner {
-    width:30%;
-
-}
-#sourceNotes {
-    width:30%;
-
-}
-#profileTable {
-    width:80%;
-    border:1px solid rgba(251,169,115,0.50);
-    border-collapse:collapse;
-    
-}
-#profileTable th, #profileTable td, #profileTable tr{
-    border:1px solid rgba(251,169,115,0.50);
-    padding:10px;
-
-}
-#profileTable #year {
-    width:5%;
-
-}
-#profileTable #date {
-    width:10%;
-
-}
-#profileTable #detail {
-    width:75%;
-
-}
-#profileTable th {
-    font-weight:bold;
-    text-align:center;
-
-}
-.tableImg {
-    width:750px;
-    height:auto;
-}
-.caption {
-    width:750px;
-    font-weight:.65em;
-    color:lightgrey;
-    text-align:center;
     
 }
