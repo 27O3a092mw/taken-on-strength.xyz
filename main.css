@@ -10,7 +10,7 @@ body {
     grid-template-areas:
     'header header header'
     'topnav topnav topnav'
-    'content content content'
+    'sidespace content content'
 }
 .header {
     grid-area: header;
@@ -33,12 +33,17 @@ body {
     border-bottom:1px solid rgba(128,128,128,0.500);
     
 }
+.sidespace{
+    grid-area:sidespace;
+    width:3%;
+    
+}
 .content {
     grid-area:content;
     height:auto;
     text-align:left;
     font-size:1em;
-    width:100%;
+    width:97%;
 
 }
 a {
@@ -79,5 +84,33 @@ a:visited {
 }
 #sourceNotes {
     width:30%;
+
+}
+#profileTable {
+    width:80%;
+    border:1px solid rgba(251,169,115,0.50);
+    border-collapse:collapse;
+    
+}
+#profileTable th, #profileTable td, #profileTable tr{
+    border:1px solid rgba(251,169,115,0.50);
+    padding:10px;
+
+}
+#profileTable #year {
+    width:5%;
+
+}
+#profileTable #date {
+    width:10%;
+
+}
+#profileTable #detail {
+    width:75%;
+
+}
+#profileTable th {
+    font-weight:bold;
+    text-align:center;
 
 }
