@@ -23,7 +23,7 @@ a:visited {
 }
 
 .header {
-    width:100vw;
+    width:95vw;
     height:10vh;
     
 }
@@ -41,7 +41,7 @@ a:visited {
 }
 .topnav {
     height:5vh;
-    width:98vw;
+    width:95vw;
     text-align:right;
     font-size:1.25em;
     padding-right:2vw;
@@ -49,6 +49,8 @@ a:visited {
 
 }
 .content {
-    width:98vw;
+    width:95vw;
     padding-left:2vw;
+    flex-wrap:wrap;
+
 }
