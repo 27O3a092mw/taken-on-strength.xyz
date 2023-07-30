@@ -54,3 +54,31 @@ a:visited {
     flex-wrap:wrap;
 
 }
+#profileTable {
+    width:90vw;
+    border:1px solid #fba973;
+    border-collapse:collapse;
+
+}
+#profileTable tr, #profileTable th, #profileTable td {
+    border:1px solid #fba973;
+    
+
+}
+#profileTable th {
+    font-weight:bold;
+    text-align:center;
+    
+}
+#year {
+    width:5%;
+
+}
+#date {
+    width:10%;
+    
+}
+#detail {
+    width:75%;
+    
+}
