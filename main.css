@@ -22,6 +22,11 @@ body {
     width:90%;
 
 }
+.subHeader {
+    font-size:1.45em;
+    font-weight:bold;
+    text-align:center;
+}
 .topnav {
     grid-area:topnav;
     height:40px;
