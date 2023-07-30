@@ -8,8 +8,8 @@ body {
     width:100%;
     margin:0;
     grid-template-areas:
-    'header header header'
-    'topnav topnav topnav'
+    'header header header header'
+    'topnav topnav topnav topnav'
     'sidespace content content content'
 }
 .header {
