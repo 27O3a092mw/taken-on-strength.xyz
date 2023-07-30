@@ -123,3 +123,10 @@ a:visited {
     width:750px;
     height:auto;
 }
+.caption {
+    width:750px;
+    font-weight:.65em;
+    color:lightgrey;
+    text-align:center;
+    
+}
