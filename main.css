@@ -7,6 +7,21 @@ body {
     margin:0;
 
 }
+
+a {
+    color:#fba973;
+    text-decoration:none;
+
+}
+a:hover {
+    color: rgba(255,230,0,1);
+
+}
+a:visited {
+    color:#fba973;
+
+}
+
 .header {
     width:100vw;
     height:10vh;
@@ -32,4 +47,8 @@ body {
     padding-right:2vw;
     border-bottom:1px solid rgba(128,128,128,0.500);
 
+}
+.content {
+    width:98vw;
+    padding-left:2vw;
 }
