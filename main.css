@@ -68,6 +68,7 @@ a:visited {
 #profileTable th {
     font-weight:bold;
     text-align:center;
+    font-size:1.15em;
 
 }
 #year {
@@ -83,6 +84,7 @@ a:visited {
     
 }
 .tableImg {
+    display:block;
     width:50vw;
     height:auto;
     align-items: center;
@@ -92,5 +94,80 @@ a:visited {
     font-size:0.65em;
     color: lightgrey;
     text-align:center;
+
+}
+#refTable {
+    width:90vw;
+    border:1px solid #fba973;
+    border-collapse:collapse;
+    text-align:left;
+
+}
+#refTable th {
+    text-align:center;
+    font-weight:bold;
+    font-size:1.15em;
+    border:1px solid #fba973;
+    padding:5px;
+
+}
+#refTable td, #refTable tr {
+    border:1px solid #fba973;
+    padding:5px;
+
+}
+#no {
+    width:5%;
+
+}
+#sn {
+    width:25%;
+
+}
+#si {
+    width:32.5%;
+
+}
+#sl {
+    width:32.5%;
+
+}
+#ac {
+    width:5%;
+
+}
+ul {
+    list-style-type:square;
+
+}
+#sourceTable {
+    width:90vw;
+    border:1px solid #fba973;
+    border-collapse:collapse;
+    text-align:left;
+    
+}
+#sourceTable th {
+    text-align:center;
+    font-weight:bold;
+    font-size:1.15em;
+    border:1px solid #fba973;
+    padding:5px;
+
+}
+#refTable td, #refTable tr {
+    border:1px solid #fba973;
+    padding:5px;
+}
+#sourceTitle {
+    width:40%;
+
+}
+#sourceOwner {
+    width:30%;
+
+}
+#sourceNotes {
+    width:30%;
 
 }
