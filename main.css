@@ -48,8 +48,12 @@ a:visited {
     border-bottom:1px solid rgba(128,128,128,0.500);
 
 }
+.sidespace {
+    width:3vw;
+    left:0;
+}
 .content {
-    width:95vw;
+    width:93vw;
     padding-left:2vw;
     flex-wrap:wrap;
 
@@ -158,7 +162,7 @@ ul {
 #sourceTable td, #sourceTable tr {
     border:1px solid #fba973;
     padding:5px;
-    
+
 }
 #sourceTitle {
     width:40%;
