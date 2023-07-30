@@ -68,7 +68,7 @@ a:visited {
 #profileTable th {
     font-weight:bold;
     text-align:center;
-    
+
 }
 #year {
     width:5%;
@@ -80,5 +80,17 @@ a:visited {
 }
 #detail {
     width:75%;
+    
+}
+.tableImg {
+    width:50vw;
+    height:auto;
+
+}
+.caption {
+    width:100%;
+    font-size:0.65em;
+    color: lightgrey;
+    text-align:center;
     
 }
