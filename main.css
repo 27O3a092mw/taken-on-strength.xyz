@@ -37,7 +37,8 @@ a:visited {
     font-size:1.45em;
     font-weight:bold;
     text-align:center;
-    padding:10px;
+    padding-top:20px;
+    padding-bottom:20px;
 
 }
 .topnav {
