@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Brad McKay">
+        <meta name="keywords" content="War, The Great War, First World War, WWI, CEF, Canada, History">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="mobile.css">
+        <base target="_blank">
+        <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+        <!--google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+        <!--/google fonts-->
+    </head>
+    <body>
+        <a href="./profiles.html" id="backLink">← Back to Profiles List</a>
+        <div class="subHeader">
+            <br><br>
+        </div>
+        <div class="subContent">
+          
+        <div id="space"></div>
+            <table id="profileTable">
+                <tr>
+                    <td colspan="4" class="subHeader">Rank FirstName LastName, ServiceNumber</td>
+                </tr>
+                <tr>
+                    <th id="year">Year</th>
+                    <th id="date">Date</th>
+                    <th id="detail">Detail</th>
+                    <th id="references">Reference(s)</th>
+                </tr>
+                <tr id="entryOne">    
+                    <td class="year" rowspan=""></td>
+                    <td class="date"></td>
+                    <td class="detail">
+
+                    </td>
+                    <td class="reference">
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </td>
+                </tr> 
+
+            </table>
+        </div>
+
+        <br><br><br><br><br><br>
+        
+        <div id="references">
+            <table id="refTable">
+                <tr>
+                    <th colspan="5">References</th>
+                </tr>
+                <tr>
+                    <th id="no">Ref №</th>
+                    <th id="sn">Source Name</th>
+                    <th id="si">Source Information</th>
+                    <th id="sl">Source Link</th>
+                    <th id="ac">Accessed</th>
+                </tr>
+                <tr id="ref1">
+                    <td class="refNo">1</td>
+                    <td class="sourceName"></td>
+                    <td class="sourceInfo"></td>
+                    <td class="sourceLink"><a href=""></a></td>
+                    <td class="accessDate"></td>
+                </tr>
+
+            </table>
+        </div>
+        <br><br><br>
+        <script>
+        $(document).ready(function() {
+            $('#backLink').click(function(e) {
+                e.preventDefault();
+                $('#content').load(e.target.href);
+            })
+            
+        })
+        </script>
+    </body>
+</html>
